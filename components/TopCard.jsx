@@ -1,5 +1,4 @@
 import Card from './Card';
-import fetch from 'isomorphic-unfetch';
 
 const TopCard = ({ data }) => {
   return (
@@ -11,8 +10,8 @@ const TopCard = ({ data }) => {
             data={data ? data.NewConfirmed : 0}
           />
           <Card
-            title="Total Confirmados"
-            data={data ? data.TotalConfirmed : 0}
+            title="Total Recuperados"
+            data={data ? data.TotalRecovered : 0}
           />
           <Card title="Nuevas Muertes" data={data ? data.NewDeaths : 0} />
           <Card title="Total de Muertes" data={data ? data.TotalDeaths : 0} />
