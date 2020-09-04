@@ -1,6 +1,6 @@
 import Card from './Card';
 
-const TopCard = ({ data }) => {
+const TopCard = ({ data }: any) => {
   return (
     <section className="top-cards">
       <div className="wrapper">

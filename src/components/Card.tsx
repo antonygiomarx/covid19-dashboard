@@ -1,4 +1,4 @@
-const Card = ({ title, data }) => {
+const Card = ({ title, data }: { title: string; data: string }) => {
   return (
     <article className="card youtube">
       <p className="card-title">

@@ -1,7 +1,8 @@
 import Header from './Header';
 import TopCard from './TopCard';
 import Overview from './Overview';
-const App = ({ data }) => {
+
+const App = ({ data }: any) => {
   return (
     <div>
       <Header cases={data.Global.TotalConfirmed} />
